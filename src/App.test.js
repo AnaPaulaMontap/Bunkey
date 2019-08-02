@@ -4,7 +4,6 @@ import { configure, shallow} from 'enzyme';
 import { expect } from 'chai';
 import Adapter from 'enzyme-adapter-react-16'
 import App from './App';
-import * as action from './Action/actionTypes'
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
